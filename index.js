@@ -10,7 +10,7 @@ const {Types: {ObjectId}} = require('mongoose');
  */
 module.exports = Joi => ({
   type: 'objectId',
-  base: Joi.any(),
+  base: Joi.any().meta({ baseType: 'string' }),
   messages: {
     objectId: 'needs to be a valid ObjectId',
   },
