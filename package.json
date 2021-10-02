@@ -1,8 +1,8 @@
 {
-  "name": "@meanie/joi-object-id",
+  "name": "@corupta/joi-object-id",
   "description": "A Joi extension to validation MongoDB ObjectId formats",
   "version": "2.3.0",
-  "homepage": "https://github.com/meanie/joi-object-id#readme",
+  "homepage": "https://github.com/corupta/joi-object-id#readme",
   "author": {
     "name": "Adam Reis",
     "email": "adam@helloclub.com",
