@@ -12,7 +12,7 @@ module.exports = Joi => ({
   type: 'objectId',
   base: Joi.any().meta({ baseType: 'string' }),
   messages: {
-    objectId: '"{{#label}}" needs to be a valid ObjectId',
+    objectId: '{{#label}} needs to be a valid ObjectId',
   },
   coerce(value) {
 
